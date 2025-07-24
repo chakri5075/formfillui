@@ -29,7 +29,7 @@ const handleUpload = async () => {
   };
 
   try {
-    const response = await fetch('http://localhost:8080/api/pension/details', {
+    const response = await fetch('https://onfidomock1-140053972027.europe-west2.run.app/api/pension/details', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
